@@ -1,0 +1,18 @@
+PROFILE IMAGE PLACEHOLDER
+=========================
+
+Replace this folder's profile.jpg with your actual photo.
+
+Steps:
+1. Copy your photo into this folder and name it:   profile.jpg
+2. Recommended size: 300×300 px or larger, square crop (JPEG or PNG)
+3. The portfolio hero section will automatically display it with a
+   circular crop, glowing border, and hover effect.
+
+If no profile.jpg is found, the website shows an avatar generated from
+your name via ui-avatars.com (configured in the img onerror handler).
+
+FAVICON
+=======
+Add a favicon.png (32×32 px) to this folder and link it in index.html:
+  <link rel="icon" type="image/png" href="assets/favicon.png" />

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pranav Mohan Patil – Second-Year CSD Student, GenAI Developer, Full-Stack Developer & Automation Enthusiast at Dr. VVPCE Ahilyanagar." />
+  <meta name="author" content="Pranav Mohan Patil" />
+  <meta property="og:title" content="Pranav Mohan Patil | CSD Student & GenAI Developer" />
+  <meta property="og:description" content="Portfolio of Pranav Mohan Patil – building real-world applications with Generative AI, full-stack development, automation, databases, and cloud deployment." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://github.com/pranavpatiliib-creator" />
+  <title>Pranav Mohan Patil | CSD Student &amp; GenAI Developer</title>
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Devicons for tech icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- =========================================================
+       NAVBAR
+  ========================================================= -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">
+        <span class="brand-dot">&lt;</span>Pranav<span class="brand-dot">/&gt;</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+        aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="hamburger-icon"><span></span><span></span><span></span></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#github">GitHub</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========================================================
+       HERO SECTION
+  ========================================================= -->
+  <section id="home" class="hero-section d-flex align-items-center">
+    <div class="hero-bg-blur" aria-hidden="true"></div>
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <!-- Text -->
+        <div class="col-lg-7 order-lg-1 order-2 hero-text">
+          <p class="hero-greeting reveal">👋 Hello, I'm</p>
+          <h1 class="hero-name reveal reveal-delay-1">Pranav Mohan<br /><span class="gradient-text">Patil</span></h1>
+          <p class="hero-subtitle reveal reveal-delay-2">
+            Second-Year CSD Student &nbsp;•&nbsp; GenAI Developer &nbsp;•&nbsp; Full-Stack Developer &nbsp;•&nbsp; Automation Enthusiast
+          </p>
+          <p class="hero-intro reveal reveal-delay-3">
+            A second-year Computer Science &amp; Design student at Dr. VVPCE, Ahilyanagar, passionate about building AI-powered applications, full-stack systems, automation tools, and practical software solutions that solve real problems.
+          </p>
+          <div class="hero-buttons d-flex flex-wrap gap-3 reveal reveal-delay-4">
+            <a href="#projects" class="btn btn-primary-custom">
+              <i class="bi bi-grid-fill me-2"></i>View My Projects
+            </a>
+            <a href="https://github.com/pranavpatiliib-creator" target="_blank" rel="noopener noreferrer" class="btn btn-outline-custom">
+              <i class="bi bi-github me-2"></i>GitHub
+            </a>
+            <a href="#contact" class="btn btn-ghost-custom">
+              <i class="bi bi-envelope-fill me-2"></i>Contact Me
+            </a>
+          </div>
+        </div>
+        <!-- Profile Image -->
+        <div class="col-lg-5 order-lg-2 order-1 d-flex justify-content-center">
+          <div class="profile-wrapper reveal reveal-delay-1">
+            <div class="profile-ring" aria-hidden="true"></div>
+            <!-- Replace assets/profile.jpg with your actual photo -->
+            <img
+              src="assets/profile.jpg"
+              alt="Profile photo of Pranav Mohan Patil"
+              class="profile-img"
+              onerror="this.src='https://ui-avatars.com/api/?name=Pranav+Patil&size=300&background=1e2a4a&color=60a5fa&bold=true&rounded=true'"
+            />
+            <div class="profile-badge">
+              <i class="bi bi-cpu-fill me-1"></i>AI Dev
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scroll hint -->
+    <a href="#about" class="scroll-hint" aria-label="Scroll to About section">
+      <i class="bi bi-chevron-double-down"></i>
+    </a>
+  </section>
+
+  <!-- =========================================================
+       ABOUT SECTION
+  ========================================================= -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <p class="section-subtitle">A little bit about who I am and what drives me</p>
+      </div>
+      <div class="row gy-4 align-items-start">
+        <div class="col-lg-6 reveal">
+          <div class="glass-card h-100">
+            <h3 class="card-heading mb-3"><i class="bi bi-person-circle me-2 accent-icon"></i>Who I Am</h3>
+            <p>
+              I'm <strong>Pranav Mohan Patil</strong>, a second-year student in the
+              <strong>Computer Science and Design (CSD)</strong> department at
+              <strong>Dr. Vithalrao Vikhe Patil College of Engineering, Ahilyanagar</strong>.
+            </p>
+            <p>
+              I enjoy turning ideas into working software — whether that's a school ERP system used in production,
+              an AI agent that assists users intelligently, or an automation tool that saves hours of manual work.
+            </p>
+            <p>
+              My focus areas are <span class="highlight-chip">Generative AI</span>,
+              <span class="highlight-chip">AI Agents</span>,
+              <span class="highlight-chip">Full-Stack Web Development</span>,
+              <span class="highlight-chip">Automation</span>, and
+              <span class="highlight-chip">Cloud Deployment</span>.
+              I believe in building practical, real-world solutions rather than just academic exercises.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 reveal reveal-delay-1">
+          <div class="glass-card h-100">
+            <h3 class="card-heading mb-3"><i class="bi bi-mortarboard-fill me-2 accent-icon"></i>Education</h3>
+            <div class="education-timeline">
+              <div class="edu-item">
+                <div class="edu-dot" aria-hidden="true"></div>
+                <div class="edu-content">
+                  <h4 class="edu-college">Dr. Vithalrao Vikhe Patil College of Engineering</h4>
+                  <p class="edu-location"><i class="bi bi-geo-alt-fill me-1"></i>Ahilyanagar, Maharashtra</p>
+                  <p class="edu-degree"><strong>B.Tech – Computer Science and Design (CSD)</strong></p>
+                  <span class="edu-badge">Second Year &nbsp;|&nbsp; Currently Enrolled</span>
+                </div>
+              </div>
+            </div>
+            <hr class="divider" />
+            <h3 class="card-heading mb-3 mt-3"><i class="bi bi-lightbulb-fill me-2 accent-icon"></i>What I'm Building</h3>
+            <ul class="interest-list">
+              <li><i class="bi bi-robot me-2"></i>AI-powered applications &amp; intelligent agents</li>
+              <li><i class="bi bi-globe2 me-2"></i>Full-stack web platforms and school ERP systems</li>
+              <li><i class="bi bi-gear-fill me-2"></i>Automation workflows (WhatsApp, email, etc.)</li>
+              <li><i class="bi bi-cloud-fill me-2"></i>Cloud-deployed projects on Vercel &amp; AWS</li>
+              <li><i class="bi bi-database-fill me-2"></i>Database-backed applications with Supabase &amp; SQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SKILLS SECTION
+  ========================================================= -->
+  <section id="skills" class="section-padding section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+        <p class="section-subtitle">Technologies and tools I work with</p>
+      </div>
+
+      <!-- Frontend -->
+      <div class="skill-category reveal">
+        <h3 class="skill-cat-label"><i class="bi bi-layout-text-window-reverse me-2"></i>Frontend</h3>
+        <div class="row g-3">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card"><i class="devicon-html5-plain colored"></i><span>HTML5</span></div></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card"><i class="devicon-css3-plain colored"></i><span>CSS3</span></div></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card"><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></div></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card"><i class="devicon-nextjs-plain"></i><span>Next.js</span></div></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card"><i class="devicon-bootstrap-plain colored"></i><span>Bootstrap</span></div></div>
+        </div>
+      </div>
+
+      <!-- Backend & Database -->
+      <div class="skill-category reveal reveal-delay-1">
+        <h3 class="skill-cat-label"><i class="bi bi-server me-2"></i>Backend &amp; Database</h3>
+        <div class="row g-3">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card"><i class="devicon-python-plain colored"></i><span>Python</span></div></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card"><i class="devicon-mysql-plain colored"></i><span>SQL</span></div></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card supabase-icon"><i class="bi bi-database-fill-up"></i><span>Supabase</span></div></div>
+        </div>
+      </div>
+
+      <!-- AI & Automation -->
+      <div class="skill-category reveal reveal-delay-2">
+        <h3 class="skill-cat-label"><i class="bi bi-robot me-2"></i>AI &amp; Automation</h3>
+        <div class="row g-3">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card ai-glow"><i class="bi bi-stars"></i><span>Generative AI</span></div></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card ai-glow"><i class="bi bi-robot"></i><span>AI Agents</span></div></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card ai-glow"><i class="bi bi-gear-wide-connected"></i><span>Automation</span></div></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card ai-glow"><i class="bi bi-whatsapp"></i><span>Baileys / WA</span></div></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card ai-glow"><i class="bi bi-telephone-fill"></i><span>Twilio</span></div></div>
+        </div>
+      </div>
+
+      <!-- Deployment & Cloud -->
+      <div class="skill-category reveal reveal-delay-3">
+        <h3 class="skill-cat-label"><i class="bi bi-cloud-fill me-2"></i>Deployment &amp; Cloud</h3>
+        <div class="row g-3">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card"><i class="bi bi-triangle-fill vercel-icon"></i><span>Vercel</span></div></div>
+          <div class="col-6 col-sm-4 col-md-3 col-lg-2"><div class="skill-card"><i class="devicon-amazonwebservices-plain-wordmark colored"></i><span>AWS</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       PROJECTS SECTION
+  ========================================================= -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Real-world applications I've designed and built</p>
+      </div>
+      <div class="row g-4">
+
+        <!-- School ERP System — Featured -->
+        <div class="col-lg-6 reveal">
+          <div class="project-card project-featured h-100">
+            <div class="project-card-header">
+              <span class="project-category-badge badge-web">Full-Stack • ERP</span>
+              <span class="project-featured-label"><i class="bi bi-star-fill me-1"></i>Live Project</span>
+            </div>
+            <h3 class="project-title">School ERP System</h3>
+            <p class="project-desc">
+              A production-ready School ERP platform built for real institutional use. Includes timetable management, administrative dashboards, attendance tracking, and leave management — deployed live on Vercel.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tech-tag">Next.js</span>
+              <span class="tech-tag">Supabase</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Vercel</span>
+              <span class="tech-tag">SQL</span>
+            </div>
+            <div class="project-links d-flex flex-wrap gap-2 mt-3">
+              <a href="https://edumanmra.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-project-live">
+                <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+              </a>
+              <!-- Add your GitHub repo URL below when available -->
+              <!-- <a href="https://github.com/pranavpatiliib-creator/school-erp" target="_blank" rel="noopener noreferrer" class="btn btn-project-gh"><i class="bi bi-github me-1"></i>Code</a> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Nutrient Agent -->
+        <div class="col-lg-6 reveal reveal-delay-1">
+          <div class="project-card h-100">
+            <div class="project-card-header">
+              <span class="project-category-badge badge-ai">AI • Agent</span>
+            </div>
+            <h3 class="project-title">Nutrient Agent</h3>
+            <p class="project-desc">
+              An AI agent designed to provide intelligent nutrition guidance. Uses generative AI to process user queries and deliver personalised dietary information and recommendations through a conversational interface.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Generative AI</span>
+              <span class="tech-tag">AI Agents</span>
+            </div>
+            <div class="project-links d-flex flex-wrap gap-2 mt-3">
+              <!-- Add live demo or GitHub URL below when available -->
+              <span class="btn btn-project-placeholder"><i class="bi bi-hourglass-split me-1"></i>Coming Soon</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cybersecurity Mail Writing Agent -->
+        <div class="col-lg-6 reveal">
+          <div class="project-card h-100">
+            <div class="project-card-header">
+              <span class="project-category-badge badge-ai">AI • Cybersecurity</span>
+            </div>
+            <h3 class="project-title">Cybersecurity Mail Writing Agent</h3>
+            <p class="project-desc">
+              An AI-powered agent that assists users in drafting professional, contextually accurate cybersecurity-related emails. Reduces response time and improves clarity in security communications through intelligent text generation.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Generative AI</span>
+              <span class="tech-tag">AI Agents</span>
+              <span class="tech-tag">Automation</span>
+            </div>
+            <div class="project-links d-flex flex-wrap gap-2 mt-3">
+              <span class="btn btn-project-placeholder"><i class="bi bi-hourglass-split me-1"></i>Coming Soon</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- WhatsApp Group Automation -->
+        <div class="col-lg-6 reveal reveal-delay-1">
+          <div class="project-card h-100">
+            <div class="project-card-header">
+              <span class="project-category-badge badge-auto">Automation • Messaging</span>
+            </div>
+            <h3 class="project-title">WhatsApp Group Automation</h3>
+            <p class="project-desc">
+              An automation system for managing WhatsApp group workflows programmatically. Built using the Baileys library to send scheduled messages, handle group events, and automate repetitive communication tasks.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Baileys</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Automation</span>
+            </div>
+            <div class="project-links d-flex flex-wrap gap-2 mt-3">
+              <span class="btn btn-project-placeholder"><i class="bi bi-hourglass-split me-1"></i>Coming Soon</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- E-commerce Website -->
+        <div class="col-lg-6 reveal">
+          <div class="project-card h-100">
+            <div class="project-card-header">
+              <span class="project-category-badge badge-web">Full-Stack • E-Commerce</span>
+            </div>
+            <h3 class="project-title">E-Commerce Website</h3>
+            <p class="project-desc">
+              A modern full-stack e-commerce platform with product listings, a shopping cart, and an admin-facing management interface. Demonstrates end-to-end web development including frontend UI, backend logic, and database integration.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">SQL</span>
+            </div>
+            <div class="project-links d-flex flex-wrap gap-2 mt-3">
+              <span class="btn btn-project-placeholder"><i class="bi bi-hourglass-split me-1"></i>Coming Soon</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Agriculture Bot -->
+        <div class="col-lg-6 reveal reveal-delay-1">
+          <div class="project-card h-100">
+            <div class="project-card-header">
+              <span class="project-category-badge badge-ai">AI • Agriculture</span>
+            </div>
+            <h3 class="project-title">Agriculture Bot</h3>
+            <p class="project-desc">
+              An AI-driven conversational bot built to assist farmers and agricultural stakeholders with crop information, weather guidance, and farming recommendations delivered through a simple chat interface.
+            </p>
+            <div class="project-tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Generative AI</span>
+              <span class="tech-tag">AI Agents</span>
+              <span class="tech-tag">Automation</span>
+            </div>
+            <div class="project-links d-flex flex-wrap gap-2 mt-3">
+              <span class="btn btn-project-placeholder"><i class="bi bi-hourglass-split me-1"></i>Coming Soon</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       GITHUB & OPEN SOURCE SECTION
+  ========================================================= -->
+  <section id="github" class="section-padding section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">GitHub &amp; <span class="gradient-text">Open Source</span></h2>
+        <p class="section-subtitle">Exploring, building, and sharing code publicly</p>
+      </div>
+      <div class="row gy-4 align-items-stretch">
+
+        <!-- Profile card -->
+        <div class="col-lg-4 reveal">
+          <div class="glass-card github-profile-card h-100 text-center">
+            <div class="gh-avatar-wrap">
+              <img
+                src="https://github.com/pranavpatiliib-creator.png"
+                alt="GitHub avatar of pranavpatiliib-creator"
+                class="gh-avatar"
+                onerror="this.src='https://ui-avatars.com/api/?name=Pranav+Patil&size=120&background=1e2a4a&color=60a5fa&bold=true&rounded=true'"
+              />
+            </div>
+            <h3 class="gh-username">pranavpatiliib-creator</h3>
+            <p class="gh-bio">Second-Year CSD Student · GenAI Developer · Automation Enthusiast</p>
+            <a href="https://github.com/pranavpatiliib-creator" target="_blank" rel="noopener noreferrer" class="btn btn-primary-custom w-100 mt-2">
+              <i class="bi bi-github me-2"></i>View GitHub Profile
+            </a>
+          </div>
+        </div>
+
+        <!-- Activity & contribution message -->
+        <div class="col-lg-8 reveal reveal-delay-1">
+          <div class="glass-card h-100">
+            <h3 class="card-heading mb-3"><i class="bi bi-activity me-2 accent-icon"></i>Contribution Activity</h3>
+            <!-- GitHub contribution graph (loads via third-party CDN proxy; falls back gracefully) -->
+            <div class="gh-contribution-wrap">
+              <img
+                src="https://ghchart.rshah.org/3b82f6/pranavpatiliib-creator"
+                alt="GitHub contribution chart for pranavpatiliib-creator"
+                class="gh-contrib-img"
+                onerror="this.parentElement.innerHTML='<p class=\'gh-fallback\'><i class=\'bi bi-info-circle me-2\'></i>Contribution chart unavailable – <a href=\'https://github.com/pranavpatiliib-creator\' target=\'_blank\' rel=\'noopener noreferrer\'>view on GitHub</a></p>'"
+              />
+            </div>
+            <hr class="divider" />
+            <h3 class="card-heading mb-3 mt-3"><i class="bi bi-code-slash me-2 accent-icon"></i>Open Source &amp; Public Work</h3>
+            <p>
+              I build projects openly on GitHub — from AI agents and automation utilities to full-stack web applications.
+              Explore my repositories to see working code, project structures, and commit histories.
+            </p>
+            <div class="d-flex flex-wrap gap-3 mt-3">
+              <a href="https://github.com/pranavpatiliib-creator?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn-outline-custom">
+                <i class="bi bi-folder2-open me-2"></i>All Repositories
+              </a>
+              <a href="https://edumanmra.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-project-live">
+                <i class="bi bi-box-arrow-up-right me-1"></i>Live — School ERP
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       CONTACT SECTION
+  ========================================================= -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Have a project idea, question, or just want to connect?</p>
+      </div>
+      <div class="row gy-4 justify-content-center">
+
+        <!-- Contact info -->
+        <div class="col-lg-4 reveal">
+          <div class="glass-card h-100">
+            <h3 class="card-heading mb-4"><i class="bi bi-chat-dots-fill me-2 accent-icon"></i>Contact Info</h3>
+            <ul class="contact-info-list">
+              <li>
+                <i class="bi bi-github contact-icon"></i>
+                <div>
+                  <span class="contact-label">GitHub</span>
+                  <a href="https://github.com/pranavpatiliib-creator" target="_blank" rel="noopener noreferrer">pranavpatiliib-creator</a>
+                </div>
+              </li>
+              <li>
+                <i class="bi bi-geo-alt-fill contact-icon"></i>
+                <div>
+                  <span class="contact-label">Location</span>
+                  <span>Ahilyanagar, Maharashtra, India</span>
+                </div>
+              </li>
+              <li>
+                <i class="bi bi-mortarboard-fill contact-icon"></i>
+                <div>
+                  <span class="contact-label">College</span>
+                  <span>Dr. VVPCE, Ahilyanagar</span>
+                </div>
+              </li>
+            </ul>
+            <p class="muted-note mt-4">
+              <!-- Add your email below when you're ready to share it publicly -->
+              <!-- <i class="bi bi-envelope-fill me-1"></i> your.email@example.com -->
+            </p>
+          </div>
+        </div>
+
+        <!-- Contact form -->
+        <div class="col-lg-7 reveal reveal-delay-1">
+          <div class="glass-card">
+            <h3 class="card-heading mb-4"><i class="bi bi-send-fill me-2 accent-icon"></i>Send a Message</h3>
+
+            <!--
+              FORM BACKEND CONFIGURATION
+              ============================
+              To make this form send real emails, replace the action attribute below
+              with your Formspree endpoint:   https://formspree.io/f/YOUR_FORM_ID
+              Or set up EmailJS — see: https://www.emailjs.com/docs/
+              The JavaScript in js/script.js already handles submission and shows
+              success/error states. Simply add your endpoint and update the JS handler.
+            -->
+            <form id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="contactName" class="form-label">Full Name <span class="required-star">*</span></label>
+                  <input type="text" class="form-control custom-input" id="contactName" name="name" placeholder="Pranav Patil" required minlength="2" />
+                  <div class="invalid-feedback">Please enter your full name (at least 2 characters).</div>
+                </div>
+                <div class="col-sm-6">
+                  <label for="contactEmail" class="form-label">Email Address <span class="required-star">*</span></label>
+                  <input type="email" class="form-control custom-input" id="contactEmail" name="email" placeholder="you@example.com" required />
+                  <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="col-12">
+                  <label for="contactSubject" class="form-label">Subject <span class="required-star">*</span></label>
+                  <input type="text" class="form-control custom-input" id="contactSubject" name="subject" placeholder="Project Collaboration / Question / Hello" required minlength="3" />
+                  <div class="invalid-feedback">Please enter a subject (at least 3 characters).</div>
+                </div>
+                <div class="col-12">
+                  <label for="contactMessage" class="form-label">Message <span class="required-star">*</span></label>
+                  <textarea class="form-control custom-input" id="contactMessage" name="message" rows="5" placeholder="Tell me about your project or question..." required minlength="10"></textarea>
+                  <div class="invalid-feedback">Please enter a message (at least 10 characters).</div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary-custom w-100" id="submitBtn">
+                    <span class="btn-text"><i class="bi bi-send-fill me-2"></i>Send Message</span>
+                    <span class="btn-loading d-none"><span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Sending…</span>
+                  </button>
+                </div>
+                <!-- Form feedback messages -->
+                <div class="col-12">
+                  <div id="formSuccess" class="form-alert form-alert-success d-none" role="alert">
+                    <i class="bi bi-check-circle-fill me-2"></i>Message sent! I'll get back to you soon.
+                  </div>
+                  <div id="formError" class="form-alert form-alert-error d-none" role="alert">
+                    <i class="bi bi-exclamation-triangle-fill me-2"></i>Something went wrong. Please try again or reach out via GitHub.
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+        <div class="col-md-4 text-center text-md-start">
+          <span class="footer-brand">&lt;Pranav /&gt;</span>
+        </div>
+        <div class="col-md-4 text-center">
+          <p class="footer-tagline">"Building practical solutions with AI, automation, and modern web technologies."</p>
+        </div>
+        <div class="col-md-4 text-center text-md-end">
+          <div class="footer-links d-flex justify-content-center justify-content-md-end gap-3">
+            <a href="https://github.com/pranavpatiliib-creator" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="#projects" aria-label="Projects"><i class="bi bi-grid-fill"></i></a>
+            <a href="#contact" aria-label="Contact"><i class="bi bi-envelope-fill"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr class="footer-divider" />
+      <p class="footer-copy text-center">
+        &copy; <span id="footerYear"></span> Pranav Mohan Patil · Dr. VVPCE, Ahilyanagar · CSD
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="bi bi-chevron-up"></i>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
